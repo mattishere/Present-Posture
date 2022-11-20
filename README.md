@@ -33,7 +33,7 @@ In my i3 config, I reference the script to run on start/reload.
 - The makefile is made specifically for a Linux system, so that's technically needed. It can be modified for other systems, though.
 - Go (to be able to use `go build` in the makefile).
 - A notification manager like `dunst`.
-- `libnotify` (this comes with the `notify-send` command). On Arch Linux, run `sudo pacman -S libnotify`.
+- `libnotify` (which includes the `notify-send` command). On Arch Linux, run `sudo pacman -S libnotify`.
 
 ## Installation
 - `git clone https://github.com/mattishere/Present-Posture.git && cd Present-Posture`
